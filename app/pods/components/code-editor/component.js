@@ -130,7 +130,7 @@ export default Ember.Component.extend({
       return this.get('allowedLanguages') ? this.get('allowedLanguages').objectAt(0) : "cpp";
   }),
   onceEdit: false,
-  customInput: false,
+  customInput: true,
   initRenderDone: false,
   theme: "ace/theme/monokai",
   theme_codes: {
